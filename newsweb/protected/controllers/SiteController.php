@@ -16,7 +16,7 @@ class SiteController extends BaseController
 	 */
 	public function actionIndex()
 	{       
-           
+           die("this is a test!");
             //echo time();die();
             $rentalsinfo=  RentalsInfo::model()->findAll();
             $shelter=  Shelter::model()->findAll();
